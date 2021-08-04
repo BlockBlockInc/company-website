@@ -2,7 +2,7 @@
   "name": "blockblock-company-site",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://blockblockinc.github.io/company-website",
+  "homepage": "https://blockblock.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
