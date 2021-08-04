@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 const members = [
   {
     name: 'Bart',
-    img: "https://drive.google.com/uc?export=view&id=1xVUWn7PM26pRpIQl6jv",
+    img: "https://drive.google.com/uc?export=view&id=1xVUWn7PM26pRpIQl6jv__uXRrDsJULch",
     description: 'Co-founder. Bart built 25 #1 App Store hits & ran smartphone games for Disney. He co-founded the Mozilla Builders incubator and headed marketing & business affairs for Firefox 1.0. He has a long track record in open source, community work and activism (incl as an Echoing Green fellow). Occasional angel investor (MUBI, Hooked).',
   },
   {
@@ -21,7 +21,7 @@ const members = [
   },
   {
     name: 'Kai',
-    img: "https://drive.google.com/uc?export=view&id=1w-iQUJpINnkfjR1h",
+    img: "https://drive.google.com/uc?export=view&id=1w-iQUJpINnkfjR1h_CengajZ5F7mUWmE",
     description: 'Advisor. Kai is in Experience Design at Netflix, where he works closely with content creators and product owners to create special experiences on the platform. He is the founder of the MeebitsDAO project and has spent years in the crypto world. He previously worked at Sony Pictures Entertainment.',
   },
   {
@@ -36,7 +36,7 @@ const members = [
   },
   {
     name: 'Neo',
-    img: "https://drive.google.com/uc?export=view&id=1Rjd7UAcVUYktIPDlOJwB5ZOL9Ik",
+    img: "https://drive.google.com/uc?export=view&id=1EQZc5IXQWdfhgG8mtYUh-6yAbhADvEDj",
     description: 'Developer. Neo is currently taking a gap year from the University of Central Florida - where he studies computer science - to work with Block::Block. He enjoys building and iterating on new ideas and is excited about jumping into the world of Web3 and crypto. In his free time, he enjoys attending hackathons and meeting new people!',
   },
   {
@@ -51,12 +51,12 @@ const members = [
   },
   {
     name: 'Ryan',
-    img: "https://drive.google.com/uc?export=view&id=19-b2kKpKFweDHSlIhcI85VnFZz",
+    img: "https://drive.google.com/uc?export=view&id=19-b2kKpKFweDHSlIhcI85VnFZz_6KwNy",
     description: 'Technical Advisor. Ryan Ouyang is an engineer. A recovered hackathon addict with 10+ wins, Ryan has been a finalist at 3 ETHGlobal events and operated in and built blockchain apps for the biggest companies in Canada. He is currently working on a new NFT wearables system, as well as a new blockchain game.',
   },
   {
     name: 'Josh',
-    img: "https://drive.google.com/uc?export=view&id=15Hc",
+    img: "https://drive.google.com/uc?export=view&id=15Hc_UxlHjItdOTnnDs1MqXxFlAYEUXuP",
     description: 'Advisor. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. He is now an active NFT and crypto enthusiast.',
   },
 ]
