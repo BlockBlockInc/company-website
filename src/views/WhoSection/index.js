@@ -193,10 +193,10 @@ const styles = StyleSheet.create({
     position: 'relative',
     marginTop: 0,
     marginBottom: 0,
+    display: 'flex',
+    flexDirection: 'column',
     "@media only screen and (max-width: 767px)": {
       fontSize: 45,
-      display: 'flex',
-      flexDirection: 'column',
     }
   },
   carouselSection: {
