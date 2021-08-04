@@ -66,10 +66,7 @@ export default function WhoSection() {
           <div className={css(styles.whoWeAreOverlay)}></div>
         </div>
         <p className={css(styles.quote)}>
-          “Block::Block is helping build the future brick by brick, block by block. They’ve created an awesome community of world-changers and are committed to investing in projects that push humanity forward.”
-          <div className={css(styles.benioff)}>
-            - Marc Benioff
-          </div>
+          Block::Block was started when Mark and Bart, who co-led the Mozilla Builders incubator, teamed up with NFT OG Kai. We love decentralization, open source, and creators. Investors include Divergence.vc, Marc Benioff, Kevin Lin, Kun Gao and Cyan Bannister.
         </p>
       </div>
       <div className={css(styles.carouselSection)}>
