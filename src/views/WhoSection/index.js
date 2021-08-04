@@ -16,7 +16,7 @@ const members = [
   },
   {
     name: 'Mark',
-    img: "https://drive.google.com/uc?export=view&id=1Z6BiGHyxDBm",
+    img: "https://drive.google.com/uc?export=view&id=1Z6BiGHyxDBm_zJY55A6JrPFwHx7fMJ7g",
     description: 'Co-founder. Mark was previously Chief Product Officer for Mozilla and steward of Firefox for the Quantum launch. He served as CTO for cloud computing pioneer, Joyent, and has been the technical co-founder at multiple early startups.' 
   },
   {
@@ -56,7 +56,7 @@ const members = [
   },
   {
     name: 'Josh',
-    img: "https://drive.google.com/uc?export=view&id=160biDBcLWgzUB4o6QOoxAYm",
+    img: "https://drive.google.com/uc?export=view&id=160biDBcLWgzUB4o6QOoxAYm_h28b9YEL",
     description: 'Advisor. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. He is now an active NFT and crypto enthusiast.',
   },
 ]
