@@ -19,9 +19,9 @@ const members = [
     description: 'Co-founder. Bart built 25 #1 App Store hits & ran smartphone games for Disney. He co-founded the Mozilla Builders incubator and headed marketing & business affairs for Firefox 1.0. He has a long track record in open source, community work and activism (incl as an Echoing Green fellow). Occasional angel investor (MUBI, Hooked).',
   },
   {
-    name: 'Luke',
+    name: 'Mark',
     img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
-    description: 'Creative Director. Luke has spent the last 20 years working as a creative at Wunderman, McCann, MRM, Publicis, and Digitas LBi, among other advertising giants. He was fortunate to spend two of those years traveling the world with Hyper Island, training advertising agencies on building agile management teams that solve for constant digital and social change.',
+    description: 'Co-founder. Mark was previously Chief Product Officer for Mozilla and steward of Firefox for the Quantum launch. He served as CTO for cloud computing pioneer, Joyent, and has been the technical co-founder at multiple early startups.' 
   },
   {
     name: 'Luke',
@@ -29,29 +29,39 @@ const members = [
     description: 'Creative Director. Luke has spent the last 20 years working as a creative at Wunderman, McCann, MRM, Publicis, and Digitas LBi, among other advertising giants. He was fortunate to spend two of those years traveling the world with Hyper Island, training advertising agencies on building agile management teams that solve for constant digital and social change.',
   },
   {
-    name: 'Luke',
+    name: 'Kai',
     img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
-    description: 'Creative Director. Luke has spent the last 20 years working as a creative at Wunderman, McCann, MRM, Publicis, and Digitas LBi, among other advertising giants. He was fortunate to spend two of those years traveling the world with Hyper Island, training advertising agencies on building agile management teams that solve for constant digital and social change.',
+    description: 'Advisor. Kai is in Experience Design at Netflix, where he works closely with content creators and product owners to create special experiences on the platform. He is the founder of the MeebitsDAO project and has spent years in the crypto world. He previously worked at Sony Pictures Entertainment.',
   },
   {
-    name: 'Luke',
+    name: 'Carly',
     img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
-    description: 'Creative Director. Luke has spent the last 20 years working as a creative at Wunderman, McCann, MRM, Publicis, and Digitas LBi, among other advertising giants. He was fortunate to spend two of those years traveling the world with Hyper Island, training advertising agencies on building agile management teams that solve for constant digital and social change.',
+    description: 'Chief of Staff. Carly Reilly is an entrepreneur, political commentator, and fundraiser. Carly joined Andrew Yang’s 2020 presidential campaign in August 2018 and helped raise over $40 million as national finance director. She is a Washington Post contributor, a co-host of the Yang Speaks podcast, and has been featured by Bloomberg News.',
   },
   {
-    name: 'Luke',
+    name: 'Neo',
     img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
-    description: 'Creative Director. Luke has spent the last 20 years working as a creative at Wunderman, McCann, MRM, Publicis, and Digitas LBi, among other advertising giants. He was fortunate to spend two of those years traveling the world with Hyper Island, training advertising agencies on building agile management teams that solve for constant digital and social change.',
+    description: 'Developer. Neo is currently taking a gap year from the University of Central Florida - where he studies computer science - to work with Block::Block. He enjoys building and iterating on new ideas and is excited about jumping into the world of Web3 and crypto. In his free time, he enjoys attending hackathons and meeting new people!',
   },
   {
-    name: 'Luke',
+    name: 'Mike',
     img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
-    description: 'Creative Director. Luke has spent the last 20 years working as a creative at Wunderman, McCann, MRM, Publicis, and Digitas LBi, among other advertising giants. He was fortunate to spend two of those years traveling the world with Hyper Island, training advertising agencies on building agile management teams that solve for constant digital and social change.',
+    description: 'Content & Community. Mike is a former serial entrepreneur and loves being at the breaking edge of culture, trends and consumer insight. He’s fascinated by the metaverse, NFT’s and the future of commerce. By day he is a senior strategist at MediaMonks advertising agency in London. By night you’ll find him in our Discords! You probably know him better as Ginza / GinzaETH and he’s all things content and community for BLOCK::BLOCK & MeebitsDAO.',  
   },
   {
-    name: 'Luke',
+    name: 'Angele',
     img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
-    description: 'Creative Director. Luke has spent the last 20 years working as a creative at Wunderman, McCann, MRM, Publicis, and Digitas LBi, among other advertising giants. He was fortunate to spend two of those years traveling the world with Hyper Island, training advertising agencies on building agile management teams that solve for constant digital and social change.',
+    description: 'Intern. Angele is a Comp Sci & Stats undergrad student at McGill and recently got into the crypto/NFT space. As part of her internship with Block::Block, she is building a website that mints NFTs for social media influencers.',
+  },
+  {
+    name: 'Ryan',
+    img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
+    description: 'Technical Advisor. Ryan Ouyang is an engineer. A recovered hackathon addict with 10+ wins, Ryan has been a finalist at 3 ETHGlobal events and operated in and built blockchain apps for the biggest companies in Canada. He is currently working on a new NFT wearables system, as well as a new blockchain game.',
+  },
+  {
+    name: 'Josh',
+    img: "https://lh3.googleusercontent.com/JBsQ4pTRBvEMXN3vkcl7gP9wr9BZbKegtp-wPdYAw2MMmXDIKoonRu098OphXg3lCZJ1TFY0hLKKlrJBfI6HkfsGzMr7LvirG4JF",
+    description: 'Advisor. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. He is now an active NFT and crypto enthusiast.',
   },
 ]
 
