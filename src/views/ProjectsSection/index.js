@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import './index.css';
 
-import meebitsdaoBlocks from '../../assets/images/meebitsdaoBackground.webp';
+import meebitsdaoBlocks from '../../assets/images/meebitsFloatingBlocks.webp';
 import menschBlocks from '../../assets/images/menschFloatingBlocks.webp';
 import kryptosignBlocks from '../../assets/images/kryptosignFloatingBlocks.webp';
 
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     }
   },
   meebitsdaoBlocks: {
-    height: '90%',
+    height: '100%',
     width: '100%',
     position: 'absolute',
     top: 0,
