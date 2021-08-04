@@ -83,7 +83,7 @@ export default function HeroArea({activeProject}) {
             <p className='paragraph'>Banter, brainstorm, build with us.</p>
             <a
               className='link'
-              href='https://discord.com/invite/Fe3WYFxQ'
+              href='https://discord.gg/FjVH5UpEgC'
               target='_blank'
               rel='noreferrer'
             >
@@ -113,7 +113,7 @@ export default function HeroArea({activeProject}) {
 const styles = StyleSheet.create({
   heroContainer: {
     position: 'relative',
-    height: 'calc(100vh - 100px)',
+    height: 'calc(100vh)',
     maxHeight: 800,
     paddingTop: 100,
     minHeight: 550,

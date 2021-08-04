@@ -65,13 +65,41 @@ const members = [
   },
 ]
 
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <i className={css(styles.arrow) + " far fa-chevron-right"}></i>
+    </div>
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <i className={css(styles.arrow) + " far fa-chevron-left"}></i>
+    </div>
+  );
+}
+
 export default function WhoSection() {
   return (
     <div id='who-section' className={css(styles.container)}>
       <div className={css(styles.topText)}>
         <div className={css(styles.topTextWrapper)}>
           <h2 className={css(styles.whoWeAreTitle)}>
-            Who <b/> we are
+            Who 
+            <b/>
+            we are
           </h2>
           <div className={css(styles.whoWeAreOverlay)}></div>
         </div>
@@ -85,21 +113,23 @@ export default function WhoSection() {
           infinite={true}
           slidesToShow={4}
           adaptiveHeight={true}
+          nextArrow={<NextArrow />}
+          prevArrow={<PrevArrow />}
           responsive={[
             {
-              breakpoint: 1250,
+              breakpoint: 1350,
               settings: {
                 slidesToShow: 3,
               }
             },
             {
-              breakpoint: 900,
+              breakpoint: 1024,
               settings: {
                 slidesToShow: 2,
               }
             },
             {
-              breakpoint: 768,
+              breakpoint: 767,
               settings: {
                 slidesToShow: 1,
               }
@@ -128,8 +158,8 @@ const styles = StyleSheet.create({
     background: '#1A1A1A',
     // minHeight: '100vh',
     '@media only screen and (min-width: 768px)': {
-      paddingTop: 50,
-      paddingBottom: 50,
+      paddingTop: 100,
+      paddingBottom: 100,
     },
   },
   topText: {
@@ -150,6 +180,10 @@ const styles = StyleSheet.create({
     left: 0,
     top: 0,
     zIndex: 1,
+
+    "@media only screen and (max-width: 767px)": {
+      width: '100%',
+    }
   },
   whoWeAreTitle: {
     textTransform: 'uppercase',
@@ -163,14 +197,30 @@ const styles = StyleSheet.create({
     position: 'relative',
     marginTop: 0,
     marginBottom: 0,
+    "@media only screen and (max-width: 767px)": {
+      fontSize: 45,
+      display: 'flex',
+      flexDirection: 'column',
+    }
   },
   carouselSection: {
     marginTop: 50,
     paddingBottom: 16,
+
+    "@media only screen and (max-width: 767px)": {
+      marginTop: 16,
+      paddingBottom: 30,
+    }
   },
   topTextWrapper: {
     position: 'relative',
     paddingLeft: 29,
+
+    "@media only screen and (max-width: 767px)": {
+      width: '100%',
+      padding: 16,
+      paddingTop: 0,
+    }
   },
   quote: {
     color: '#fff',
@@ -190,5 +240,13 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: -25,
     right: 36,
+  },
+  arrow: {
+    color: '#aaa',
+    fontSize: 40,
+
+    "@media only screen and (max-width: 767px)": {
+      fontSize: 30,
+    }
   },
 })

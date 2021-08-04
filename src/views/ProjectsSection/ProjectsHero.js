@@ -3,8 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import menschBackground from '../../assets/images/menschBackground.webp';
 import kryptosignBackground from '../../assets/images/kryptosignBackground.webp';
-import menschPreview from '../../assets/images/menschSite.webp';
-import kryptosignPreview from '../../assets/images/kryptosignSite.webp';
 
 export default function ProjectsHero({activeProject, translate}) {
   const renderHero = () => {
@@ -65,37 +63,6 @@ export default function ProjectsHero({activeProject, translate}) {
     }
   }
 
-  const renderPreviews = () => {
-    switch(activeProject) {
-      case 'menschmaschine':
-        return (
-          <motion.img 
-            className={css(styles.menschPreview)}
-            src={menschPreview}
-            key="mensch-preview"
-            transition={{ duration: .5, type: "tween" }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          />
-        );
-      case 'kryptosign':
-        return (
-          <motion.img 
-            className={css(styles.kryptosignPreview)}
-            src={kryptosignPreview}
-            key="kryptosign-preview"
-            transition={{ duration: .5, type: "tween" }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          />
-        );
-      default:
-        return null;
-    }
-  }
-
   return (
     <div 
       id="projects-hero"
@@ -106,7 +73,6 @@ export default function ProjectsHero({activeProject, translate}) {
       }}>
       <AnimatePresence>
         { renderHero() }
-        { renderPreviews() }
       </AnimatePresence>
     </div>
   )
@@ -158,55 +124,5 @@ const styles = StyleSheet.create({
     minHeight: '105vh',
     objectFit: 'cover',
     zIndex: 1,
-  },
-  menschPreview: {
-    position: 'absolute',
-    objectFit: 'contain',
-    top: '50%',
-    transform: 'translate(-50%, -50%)',
-    "@media only screen and (max-width: 767px)": {
-      display: 'none',
-    },
-    "@media only screen and (min-width: 768px)": {
-      left: '27%',
-      maxHeight: '45vh',
-    },
-    "@media only screen and (min-width: 1024px)": {
-      // height: 700,
-      maxHeight: '70vh',
-      left: '30%',
-      height: 600,
-    },
-    "@media only screen and (min-width: 1350px)": {
-      height: 800,
-      left: '35%',
-    }
-  },
-  kryptosignPreview: {
-    position: 'absolute',
-    objectFit: 'contain',
-    top: 77,
-    top: '50%',
-    transform: 'translate(-50%, -50%)',
-
-    "@media only screen and (max-width: 767px)": {
-      display: 'none',
-    },
-    "@media only screen and (min-width: 768px)": {
-      maxHeight: '45vh',
-      left: 32,
-      left: '27%',
-    },
-
-    "@media only screen and (min-width: 1024px)": {
-      // height: 700,
-      maxHeight: '70vh',
-      left: '30%',
-      height: 600,
-    },
-    "@media only screen and (min-width: 1350px)": {
-      height: 800,
-      left: '35%',
-    }
   },
 })

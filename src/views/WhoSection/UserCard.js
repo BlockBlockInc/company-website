@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   container: {
     margin: '0 auto',
     width: 290,
-    height: 385,
+    height: 360,
     background: '#000',
     padding: 16,
     boxSizing: 'border-box',
@@ -39,6 +39,10 @@ const styles = StyleSheet.create({
     ':hover': {
       // transform: 'scale(1.05)',
       // transition: '.5s ease-in-out',
+    },
+
+    "@media only screen and (max-width: 767px)": {
+      width: '100%',
     }
   },
   avatar: {

@@ -18,7 +18,7 @@ export default function Footer() {
         <div className={css(styles.socials)}>
           <div className={css(styles.flexColumn) + ' discord-button-column'}>
             <a
-              href='https://discord.com/invite/Fe3WYFxQ'
+              href='https://discord.gg/FjVH5UpEgC'
               target='_blank'
               rel='noreferrer'
             >

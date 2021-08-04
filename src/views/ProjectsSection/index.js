@@ -7,6 +7,8 @@ import './index.css';
 import meebitsdaoBlocks from '../../assets/images/meebitsFloatingBlocks.webp';
 import menschBlocks from '../../assets/images/menschFloatingBlocks.webp';
 import kryptosignBlocks from '../../assets/images/kryptosignFloatingBlocks.webp';
+import menschPreview from '../../assets/images/menschSite.webp';
+import kryptosignPreview from '../../assets/images/kryptosignSite.webp';
 
 export default function ProjectsSection({activeProject, setActiveProject}) {
   const [meebitsVideoPlaying, setMeebitsVideoPlaying] = useState(false);
@@ -25,7 +27,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
 
       `,
       action: (
-        <a href="https://waitlist.meebitsdao.com" target="_blank">
+        <a href="https://meebitsdao.world" target="_blank">
           <button className={css(styles.button)}>
             Welcome to the Metaverse
           </button>
@@ -34,7 +36,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     },
     {
       id: 'kryptosign',
-      name: 'Kryptosign.io',
+      name: 'KryptoSign',
       description: `Simple documents, signed with crypto wallets, with optional Twitter and Discord handles. It's used to power the MeebitsDAO, for guestbooks, and even for contracts with partners and freelancers.  `,
       action: (
         <a href="https://kryptosign.io" target="_blank">
@@ -46,7 +48,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     },
     {
       id: 'menschmaschine',
-      name: 'MenschMaschine.io',
+      name: 'MenschMaschine',
       description: `We’re generative music producers. We also love to jam analog synths and eurorack. So we built a system that's half Mensch (that’s us, the producers, doing our thing) and half Maschine (the recombinator that creates unexpected music clips).  `,
       action: (
         <a href="https://www.menschmaschine.io/" target="_blank">
@@ -67,6 +69,38 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     setActiveProject(id);
     setMeebitsVideoPlaying(false);
   }
+
+  const renderPreviews = () => {
+    switch(activeProject) {
+      case 'menschmaschine':
+        return (
+          <motion.img 
+            className={css(styles.menschPreview)}
+            src={menschPreview}
+            key="mensch-preview"
+            transition={{ duration: .5, type: "tween" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          />
+        );
+      case 'kryptosign':
+        return (
+          <motion.img 
+            className={css(styles.kryptosignPreview)}
+            src={kryptosignPreview}
+            key="kryptosign-preview"
+            transition={{ duration: .5, type: "tween" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          />
+        );
+      default:
+        return null;
+    }
+  }
+
   
   return (
     <div id='projects-section' className={css(styles.container)}>
@@ -80,6 +114,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
             animate={{ opacity: 1, }}
             exit={{ opacity: 0, }}
           />
+          { renderPreviews() }
         </AnimatePresence>
         <h2 className={css(styles.title)}>
           Our 
@@ -188,7 +223,7 @@ const styles = StyleSheet.create({
     zIndex: 4,
   },
   projectTitle: {
-    fontSize: 30,
+    fontSize: 25,
     marginTop: 0,
     marginBottom: 0,
     fontWeight: 500,
@@ -240,4 +275,56 @@ const styles = StyleSheet.create({
       width: 420,  
     },
   },
+
+  menschPreview: {
+    position: 'absolute',
+    objectFit: 'contain',
+    top: '50%',
+    transform: 'translate(-50%, -50%)',
+    "@media only screen and (max-width: 767px)": {
+      display: 'none',
+    },
+    "@media only screen and (min-width: 768px)": {
+      left: '27%',
+      maxHeight: '45vh',
+    },
+    "@media only screen and (min-width: 1024px)": {
+      // height: 700,
+      maxHeight: '70vh',
+      left: '30%',
+      height: 600,
+    },
+    "@media only screen and (min-width: 1350px)": {
+      height: 800,
+      left: '35%',
+    }
+  },
+  kryptosignPreview: {
+    position: 'absolute',
+    objectFit: 'contain',
+    top: 77,
+    top: '50%',
+    transform: 'translate(-50%, -50%)',
+
+    "@media only screen and (max-width: 767px)": {
+      display: 'none',
+    },
+    "@media only screen and (min-width: 768px)": {
+      maxHeight: '45vh',
+      left: 32,
+      left: '27%',
+    },
+
+    "@media only screen and (min-width: 1024px)": {
+      // height: 700,
+      maxHeight: '70vh',
+      left: '30%',
+      height: 600,
+    },
+    "@media only screen and (min-width: 1350px)": {
+      height: 800,
+      left: '35%',
+    }
+  },
+
 })
