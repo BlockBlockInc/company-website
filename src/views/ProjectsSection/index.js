@@ -21,14 +21,13 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     {
       id: 'meebitsdao',
       name: 'MeebitsDAO',
-      description: `MeebitsDAO is where we get together to build new Meebits projects, one dao at a time.
-      ​
-      Let's build the Metaverse!
+      description: `We are the principal sponsor and building the backend for MeebitsDAO, an independent community and development fund for the Meebits ecosystem.
+
       `,
       action: (
         <a href="https://waitlist.meebitsdao.com" target="_blank">
           <button className={css(styles.button)}>
-            Join The Waitlist
+            Welcome to the Metaverse
           </button>
         </a>
       ),
@@ -36,13 +35,11 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     {
       id: 'kryptosign',
       name: 'Kryptosign.io',
-      description: `Create, Send, Sign. Kryptosign is the first crypto wallet document platform. 
-
-      We use it to power the MeeBits DAO, and expand it to new ventures everyday. Great for  basic agreements & contracts.`,
+      description: `Simple documents, signed with crypto wallets, with optional Twitter and Discord handles. It's used to power the MeeBitsDAO, for guestbooks, and even for contracts with partners and freelancers.  `,
       action: (
         <a href="https://kryptosign.io" target="_blank">
           <button className={css(styles.button)}>
-            Visit kryptosign.io
+            Try KryptoSign
           </button>
         </a>
       ),
@@ -50,11 +47,11 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     {
       id: 'menschmaschine',
       name: 'MenschMaschine.io',
-      description: `We’re music producers. We created a way to make music that’s half Mensch (that’s us, the producers, using Euroracks, samplers, synths, Ableton) and half Maschine (xxxxxxx). It’s fully generative and 100% on-chain. So dope. `,
+      description: `We’re generative music producers. We also love to jam analog synths and eurorack. So we built a system that's half Mensch (that’s us, the producers, doing our thing) and half Maschine (the recombinator that creates unexpected music clips).  `,
       action: (
         <a href="https://www.menschmaschine.io/" target="_blank">
           <button className={css(styles.button)}>
-            Visit menschmaschine.io
+            Visit MenschMaschine
           </button>
         </a>
       ),
