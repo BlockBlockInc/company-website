@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/company-website/static/css/main.3a96fac6.chunk.css",
-    "main.js": "/company-website/static/js/main.937b8805.chunk.js",
-    "main.js.map": "/company-website/static/js/main.937b8805.chunk.js.map",
+    "main.js": "/company-website/static/js/main.ab646d82.chunk.js",
+    "main.js.map": "/company-website/static/js/main.ab646d82.chunk.js.map",
     "runtime-main.js": "/company-website/static/js/runtime-main.e6e3ebe7.js",
     "runtime-main.js.map": "/company-website/static/js/runtime-main.e6e3ebe7.js.map",
     "static/css/2.25460519.chunk.css": "/company-website/static/css/2.25460519.chunk.css",
@@ -24,7 +24,7 @@
     "static/media/kryptosignSite.8e5f34b5.webp": "/company-website/static/media/kryptosignSite.8e5f34b5.webp",
     "static/media/logoBlackStacked.f5a6ebcf.webp": "/company-website/static/media/logoBlackStacked.f5a6ebcf.webp",
     "static/media/logoWhiteStacked.d59063ee.webp": "/company-website/static/media/logoWhiteStacked.d59063ee.webp",
-    "static/media/meebitsdaoBackground.7be74dac.webp": "/company-website/static/media/meebitsdaoBackground.7be74dac.webp",
+    "static/media/meebitsFloatingBlocks.01c50777.webp": "/company-website/static/media/meebitsFloatingBlocks.01c50777.webp",
     "static/media/menschBackground.a8441976.webp": "/company-website/static/media/menschBackground.a8441976.webp",
     "static/media/menschFloatingBlocks.c9f32148.webp": "/company-website/static/media/menschFloatingBlocks.c9f32148.webp",
     "static/media/menschSite.7aa364a4.webp": "/company-website/static/media/menschSite.7aa364a4.webp",
@@ -35,6 +35,6 @@
     "static/css/2.25460519.chunk.css",
     "static/js/2.afdf1c88.chunk.js",
     "static/css/main.3a96fac6.chunk.css",
-    "static/js/main.937b8805.chunk.js"
+    "static/js/main.ab646d82.chunk.js"
   ]
 }
