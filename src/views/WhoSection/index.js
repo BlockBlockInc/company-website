@@ -46,7 +46,7 @@ const members = [
   },
   {
     name: 'Angele',
-    img: "https://drive.google.com/file/d/1kA4fBJBWdkn7vHNYnRWTqGD_rQGdc3py/view?usp=sharing",
+    img: "https://drive.google.com/uc?export=view&id=1kA4fBJBWdkn7vHNYnRWTqGD_rQGdc3py",
     description: 'Intern. Angele is a Comp Sci & Stats undergrad student at McGill and recently got into the crypto/NFT space. As part of her internship with Block::Block, she is building a website that mints NFTs for social media influencers.',
   },
   {
