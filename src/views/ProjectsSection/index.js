@@ -1,5 +1,5 @@
 import { css, StyleSheet } from 'aphrodite';
-import React, { useState } from 'react';
+import React from 'react';
 import { motion, AnimatePresence } from "framer-motion";
 
 import './index.css';
@@ -11,7 +11,6 @@ import menschPreview from '../../assets/images/menschSite.webp';
 import kryptosignPreview from '../../assets/images/kryptosignSite.webp';
 
 export default function ProjectsSection({activeProject, setActiveProject}) {
-  const [meebitsVideoPlaying, setMeebitsVideoPlaying] = useState(false);
   
   const floatingBlocks = {
     meebitsdao: meebitsdaoBlocks,
@@ -27,7 +26,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
 
       `,
       action: (
-        <a href="https://meebitsdao.world" target="_blank">
+        <a href="https://meebitsdao.world" target="_blank" rel="noreferrer">
           <button className={css(styles.button)}>
             Welcome to the Metaverse
           </button>
@@ -39,7 +38,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
       name: 'KryptoSign',
       description: `Simple documents, signed with crypto wallets, with optional Twitter and Discord handles. It's used to power the MeebitsDAO, for guestbooks, and even for contracts with partners and freelancers.  `,
       action: (
-        <a href="https://kryptosign.io" target="_blank">
+        <a href="https://kryptosign.io" target="_blank" rel="noreferrer">
           <button className={css(styles.button)}>
             Try KryptoSign
           </button>
@@ -51,7 +50,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
       name: 'MenschMaschine',
       description: `We’re generative music producers. We also love to jam analog synths and eurorack. So we built a system that's half Mensch (that’s us, the producers, doing our thing) and half Maschine (the recombinator that creates unexpected music clips).  `,
       action: (
-        <a href="https://www.menschmaschine.io/" target="_blank">
+        <a href="https://www.menschmaschine.io/" target="_blank" rel="noreferrer">
           <button className={css(styles.button)}>
             Visit MenschMaschine
           </button>
@@ -60,14 +59,8 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     }
   ];
 
-  // const playMeebitsVideo = () => {
-  //   document.getElementById('meebits-video').play();
-  //   setMeebitsVideoPlaying(true);
-  // }
-
   const updateActiveTab = (id) => {
     setActiveProject(id);
-    setMeebitsVideoPlaying(false);
   }
 
   const renderPreviews = () => {
@@ -302,7 +295,6 @@ const styles = StyleSheet.create({
   kryptosignPreview: {
     position: 'absolute',
     objectFit: 'contain',
-    top: 77,
     top: '50%',
     transform: 'translate(-50%, -50%)',
 
@@ -311,12 +303,10 @@ const styles = StyleSheet.create({
     },
     "@media only screen and (min-width: 768px)": {
       maxHeight: '45vh',
-      left: 32,
       left: '27%',
     },
 
     "@media only screen and (min-width: 1024px)": {
-      // height: 700,
       maxHeight: '70vh',
       left: '30%',
       height: 600,

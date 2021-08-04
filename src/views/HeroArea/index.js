@@ -15,7 +15,6 @@ export default function HeroArea({activeProject}) {
 
   useEffect(() => {
     const handleScroll = (e) => {
-      const projectsElement = document.getElementById('projects-hero');
       const switchElement = document.getElementById('who-section');
 
       if (switchElement.getBoundingClientRect().top >= 0) {
@@ -168,7 +167,6 @@ const styles = StyleSheet.create({
 
     "@media only screen and (max-width: 767px)": {
       width: '90%',
-      margin: 0,
       margin: '0 auto',
       height: 'unset',
       padding: 16,

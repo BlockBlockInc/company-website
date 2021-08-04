@@ -1,9 +1,5 @@
 import React from 'react';
 import { css, StyleSheet } from 'aphrodite';
-import Carousel, {
-  slidesToShowPlugin,
-} from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
 
 import './index.css';
 import UserCard from './UserCard';

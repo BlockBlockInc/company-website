@@ -10,6 +10,7 @@ export default function UserCard({img, name, description}) {
           width={90}
           className={css(styles.avatar)}
           src={img}
+          alt={name}
         ></img>
       </div>
       <div className={css(styles.name)}>

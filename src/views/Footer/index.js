@@ -35,10 +35,10 @@ export default function Footer() {
               </div>
             </a>
           </div>
-          <a href="https://twitter.com/blockblockio" target="_blank">
+          <a href="https://twitter.com/blockblockio" target="_blank" rel="noreferrer">
             <i className={css(styles.icon) + " fab fa-twitter"}></i>
           </a>
-          <a href="https://www.linkedin.com/company/block-block/" target="_blank">
+          <a href="https://www.linkedin.com/company/block-block/" target="_blank" rel="noreferrer">
             <i className={css(styles.icon) + " fab fa-linkedin-in"}></i>
           </a>
         </div>
@@ -59,7 +59,6 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#999999',
-    fontSize: 16,
     maxWidth: 390,
     // lineHeight: '16.8px',
     lineHeight: 1.2,
