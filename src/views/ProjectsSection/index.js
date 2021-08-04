@@ -35,7 +35,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     {
       id: 'kryptosign',
       name: 'Kryptosign.io',
-      description: `Simple documents, signed with crypto wallets, with optional Twitter and Discord handles. It's used to power the MeeBitsDAO, for guestbooks, and even for contracts with partners and freelancers.  `,
+      description: `Simple documents, signed with crypto wallets, with optional Twitter and Discord handles. It's used to power the MeebitsDAO, for guestbooks, and even for contracts with partners and freelancers.  `,
       action: (
         <a href="https://kryptosign.io" target="_blank">
           <button className={css(styles.button)}>
