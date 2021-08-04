@@ -23,8 +23,8 @@
 }
 
 .slick-prev, .slick-next {
-  width: unset;
-  height: unset;
+  width: unset!important;
+  height: unset!important;
 }
 
 @media only screen and (max-width: 767px) {
