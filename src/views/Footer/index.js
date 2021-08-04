@@ -11,10 +11,8 @@ export default function Footer() {
       <div className={css(styles.left)}>
         <img src={logo} width='104' height='45' alt='Block::Block logo'/>
         <p className={css(styles.text)}>
-          We are looking for one or two exceptional smart contract and web3 devs. But we also like interesting, entrepreneurial people of all backgrounds. Reach out to us with a paragraph about yourself if you’re interested in working together.
+           We are looking for one or two exceptional smart contract and web3.0 developers. But also interesting, entrepreneurial people from diverse backgrounds. Women and people of color are strongly encouraged to apply. An inclusive team is how we win the future. Hit us up at info@blockblock.io.
           <br />
-          <br />
-          Contact: <a className={css(styles.email)} href="mailto:info@blockblock.io">info@blockblock.io</a>
         </p>
 
         <div className={css(styles.socials)}>
