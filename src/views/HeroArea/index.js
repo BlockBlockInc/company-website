@@ -75,7 +75,7 @@ export default function HeroArea({activeProject}) {
           />
           <div className={css(styles.textbox) + ' white-text-box'}>
             <p className={css(styles.text)}>
-              We are a Creative Blockchain Lab working in DAOs, NFTs, and
+              We are a creative blockchain lab working in DAOs, NFTs, and
               building the creator economy. Also the Metaverse. We microfund
               entrepreneurs and artists each month. 
             </p>
