@@ -12,12 +12,12 @@ const members = [
    {
     name: 'Bart',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Bart.webp",
-    description: 'Co-founder. Bart built 25 #1 App Store hits & ran smartphone games for Disney. He co-founded the Mozilla Builders incubator and headed marketing & business affairs for Firefox 1.0. He has a long track record in open source, community work and activism (incl as an Echoing Green fellow). Occasional angel investor (MUBI, Hooked).',
+    description: 'Cofounder. Bart built 25 #1 App Store hits & ran smartphone games for Disney. He cofounded the Mozilla Builders incubator and headed marketing & business affairs for Firefox 1.0. He has a long track record in open source, community work and activism (including as an Echoing Green fellow). Occasional angel investor (MUBI, Hooked).',
   },
   {
     name: 'Mark',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Mark.webp",
-    description: 'Co-founder. Mark was previously Chief Product Officer for Mozilla and steward of Firefox for the Quantum launch. He served as CTO for cloud computing pioneer Joyent (containers, Node.js), and has been the technical co-founder at multiple early startups.' 
+    description: 'Cofounder. Mark was previously Chief Product Officer for Mozilla and steward of Firefox for the Quantum launch. He served as CTO for cloud computing pioneer Joyent (containers, Node.js), and has been the technical cofounder at multiple early startups.' 
   },
   {
     name: 'Kai',
@@ -37,17 +37,17 @@ const members = [
   {
     name: 'Neo',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Neo.webp",
-    description: 'Developer. Neo is currently taking a gap year from the University of Central Florida - where he studies computer science - to work with Block::Block. He enjoys building and iterating on new ideas and is excited about jumping into the world of Web3 and crypto. In his free time, he enjoys attending hackathons and meeting new people!',
+    description: 'Developer. Neo is currently taking a gap year from the University of Central Florida, where he studies computer science, to work with Block::Block. He enjoys building and iterating on new ideas and is excited about jumping into the world of Web3 and crypto. He spends his free time at hackathons.',
   },
   {
     name: 'Mike',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Ginza.webp",
-    description: 'Content & Community. Mike loves being at the breaking edge of culture, trends and consumer insight. He’s fascinated by the metaverse, NFT’s and the future of commerce. By day he is a senior strategist at MediaMonks advertising agency in London. By night you’ll find him in our Discords! You probably know him better as Ginza / GinzaETH and he’s all things content and community for BLOCK::BLOCK & MeebitsDAO.',  
+    description: 'Content & Community. Mike loves being at the breaking edge of culture, trends and consumer insight. He’s fascinated by the metaverse, NFT’s and the future of commerce. By day he is a senior strategist at MediaMonks advertising agency in London. By night you’ll find him in our Discords! You probably know him better as Ginza / GinzaETH and he’s all things content and community for Block::Block & MeebitsDAO.',  
   },
   {
     name: 'Angele',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Angele.webp",
-    description: 'Intern. Angele is a Comp Sci & Stats undergrad student at McGill and recently got into the crypto/NFT space. As part of her internship with Block::Block, she is building a website that mints NFTs for social media influencers.',
+    description: 'Intern. Angele studies computer science at McGill. Recently caught the crypto and NFT bug. As part of her internship with Block::Block, she is building a website that mints NFTs for social media influencers.',
   },
   {
     name: 'Ryan',
@@ -57,7 +57,7 @@ const members = [
   {
     name: 'Josh',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Josh.webp",
-    description: 'Advisor. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. He is now an active NFT and crypto enthusiast.',
+    description: 'Advisor. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. Active NFT and crypto enthusiast.',
   },
 ]
 
