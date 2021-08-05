@@ -17,7 +17,7 @@ const members = [
   {
     name: 'Mark',
     img: "https://drive.google.com/uc?export=view&id=1Z6BiGHyxDBm_zJY55A6JrPFwHx7fMJ7g",
-    description: 'Co-founder. Mark was previously Chief Product Officer for Mozilla and steward of Firefox for the Quantum launch. He served as CTO for cloud computing pioneer, Joyent, and has been the technical co-founder at multiple early startups.' 
+    description: 'Co-founder. Mark was previously Chief Product Officer for Mozilla and steward of Firefox for the Quantum launch. He served as CTO for cloud computing pioneer Joyent (containers, Node.js), and has been the technical co-founder at multiple early startups.' 
   },
   {
     name: 'Kai',
