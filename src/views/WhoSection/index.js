@@ -57,7 +57,7 @@ const members = [
   {
     name: 'Josh',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Josh.webp",
-    description: 'Advisor. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. Active NFT and crypto enthusiast.',
+    description: 'Engineer. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. Active NFT and crypto enthusiast.',
   },
 ]
 
