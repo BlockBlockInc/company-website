@@ -2,9 +2,11 @@ import { css, StyleSheet } from 'aphrodite';
 import React from 'react';
 import logo from '../../assets/images/logoWhiteStacked.webp';
 import discordLogo from '../../assets/images/discordLogo.webp';
+import openseaLogo from '../../assets/images/opensea.png';
 
 import './index.css';
 import EmailSubscribe from './EmailSubscribe';
+
 export default function Footer() {
   return (
     <div id='footer' className={css(styles.footer)}>
@@ -37,6 +39,9 @@ export default function Footer() {
           </div>
           <a href="https://twitter.com/blockblockio" target="_blank" rel="noreferrer">
             <i className={css(styles.icon) + " fab fa-twitter"}></i>
+          </a>
+          <a href="https://opensea.io/blockblock" target="_blank" rel="noreferrer">
+            <img className={css(styles.opensea)} src={openseaLogo}></img>
           </a>
           <a href="https://www.linkedin.com/company/block-block/" target="_blank" rel="noreferrer">
             <i className={css(styles.icon) + " fab fa-linkedin-in"}></i>
@@ -77,13 +82,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 16,
+    height: 35,
+    width: 35,
     color: '#000',
     background: '#fff',
-    padding: 8,
-    fontSize: '1.75em',
+    // padding: 8,
+    fontSize: '2em',
     borderRadius: '50%',
   },
   flexColumn: {
     flex: 'unset',
+  },
+  opensea: {
+    height: 35,
+    width: 35,
+    marginLeft: 16,
   }
 })
