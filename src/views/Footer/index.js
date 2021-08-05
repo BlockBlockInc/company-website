@@ -41,7 +41,7 @@ export default function Footer() {
             <i className={css(styles.icon) + " fab fa-twitter"}></i>
           </a>
           <a href="https://opensea.io/blockblock" target="_blank" rel="noreferrer">
-            <img className={css(styles.opensea)} src={openseaLogo}></img>
+            <img className={css(styles.opensea)} src={openseaLogo} alt="BLOCK::BLOCK OpenSea"></img>
           </a>
           <a href="https://www.linkedin.com/company/block-block/" target="_blank" rel="noreferrer">
             <i className={css(styles.icon) + " fab fa-linkedin-in"}></i>
