@@ -17,7 +17,7 @@ export default function Header() {
       <div className='separator' />
       <div className='discord-button-column'>
         <a
-          href='https://discord.com/invite/Fe3WYFxQ'
+          href='https://discord.gg/4J6Y2jBq3F'
           target='_blank'
           rel='noreferrer'
         >
