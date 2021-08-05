@@ -100,7 +100,7 @@ export default function WhoSection() {
           <div className={css(styles.whoWeAreOverlay)}></div>
         </div>
         <p className={css(styles.quote)}>
-          Block::Block was started when Mark and Bart, two of the cofounders of the Mozilla Builders incubator, teamed up with NFT OG Kai. We love decentralization, open source, and creators. Investors include Divergence.vc, Marc Benioff, Kevin Lin, Kun Gao, and Scott and Cyan Bannister.
+          Block::Block was started when Mark and Bart, two of the cofounders of the Mozilla Builders incubator, teamed up with NFT OG Kai. We love decentralization, open source, and creators. Investors include Divergence Ventures, Marc Benioff, Kevin Lin, Kun Gao, and Scott and Cyan Bannister.
         </p>
       </div>
       <div className={css(styles.carouselSection)}>
