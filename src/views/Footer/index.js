@@ -13,7 +13,7 @@ export default function Footer() {
       <div className={css(styles.left)}>
         <img src={logo} width='104' height='45' alt='Block::Block logo'/>
         <p className={css(styles.text)}>
-           We are looking for one or two exceptional smart contract and web3.0 developers. But also interesting, entrepreneurial people from diverse backgrounds. Women and people of color are strongly encouraged to apply. An inclusive team is how we win the future. Hit us up at info@blockblock.io.
+           We are looking for a <a target="_blank" rel="noreferrer" href="https://angel.co/company/block-block/jobs/1575046-lead-game-developer" className={css(styles.link)}>lead game developer</a> and brilliant <a rel="noreferrer" target="_blank" className={css(styles.link)} href="https://angel.co/company/block-block/jobs">web3 and smart contracts talent</a>. But also interesting, entrepreneurial people from diverse backgrounds. Women and people of color are strongly encouraged to apply. An inclusive team is how we win the future. Hit us up at info@blockblock.io.
           <br />
         </p>
 
@@ -97,5 +97,9 @@ const styles = StyleSheet.create({
     height: 35,
     width: 35,
     marginLeft: 16,
-  }
+  },
+  link: {
+    color: '#999',
+    textDecoration: 'underline',
+  },
 })
