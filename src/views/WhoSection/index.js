@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 const members = [
    {
     name: 'Bart',
-    img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Bart.webp",
+    img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/bart.png",
     description: 'Cofounder. Bart built 25 #1 App Store hits & ran smartphone games for Disney. He cofounded the Mozilla Builders incubator and headed marketing & business affairs for Firefox 1.0. He has a long track record in open source, community work and activism (including as an Echoing Green fellow). Occasional angel investor (MUBI, Hooked).',
   },
   {
