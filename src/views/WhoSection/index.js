@@ -59,6 +59,11 @@ const members = [
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Josh.webp",
     description: 'Engineer. Josh is a Web3 software engineer. He comes from a TradFi background, previously working at Capital One Labs (in-house product incubator & innovation lab) where he led crypto exploration efforts. Active NFT and crypto enthusiast.',
   },
+  {
+    name: 'Mateo',
+    img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/mateo.webp",
+    description: 'Mateo founded his first company at age 16. Recently he won first prize among 400+ competitors in a startup competition organized by the BBVA Bank. He is now starting his next adventure in what he believes to be the most significant thing since the internet: blockchain. Mateo is our first EIR.',
+  },
 ]
 
 function NextArrow(props) {
