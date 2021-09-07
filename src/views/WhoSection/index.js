@@ -62,7 +62,7 @@ const members = [
   {
     name: 'Mateo',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/mateo.webp",
-    description: 'Mateo founded his first company at age 16. Recently he won first prize among 400+ competitors in a startup competition organized by the BBVA Bank. He is now starting his next adventure in what he believes to be the most significant thing since the internet: blockchain. Mateo is our first EIR.',
+    description: 'EIR. Mateo founded his first company at age 16. Recently he won first prize among 400+ competitors in a startup competition organized by the BBVA Bank. He is now starting his next adventure in what he believes to be the most significant thing since the internet: blockchain. Mateo is our first EIR.',
   },
 ]
 
