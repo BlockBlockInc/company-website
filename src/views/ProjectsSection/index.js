@@ -7,8 +7,10 @@ import './index.css';
 import meebitsdaoBlocks from '../../assets/images/meebitsFloatingBlocks.webp';
 import menschBlocks from '../../assets/images/menschFloatingBlocks.webp';
 import kryptosignBlocks from '../../assets/images/kryptosignFloatingBlocks.webp';
+import savagedroidBlocks from '../../assets/images/savageDroidsFloatingBlocks.webp';
 import menschPreview from '../../assets/images/menschSite.webp';
 import kryptosignPreview from '../../assets/images/kryptosignSite.webp';
+import savagedroidsPreview from '../../assets/images/savageDroidsPreview.webp';
 
 export default function ProjectsSection({activeProject, setActiveProject}) {
   
@@ -16,6 +18,7 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
     meebitsdao: meebitsdaoBlocks,
     menschmaschine: menschBlocks,
     kryptosign: kryptosignBlocks,
+    savagedroids: savagedroidBlocks,
   }
 
   const projects = [
@@ -29,6 +32,18 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
         <a href="https://meebitsdao.world" target="_blank" rel="noreferrer">
           <button className={css(styles.button)}>
             Welcome to the Metaverse
+          </button>
+        </a>
+      ),
+    },
+    {
+      id: 'savagedroids',
+      name: 'Savage Droids',
+      description: 'The Droid war has been going on for years. On one side, Theos. On the other side, The Community. block::block teamed up with Bek on this "born on the Metaverse" IP - starting with these 8,888 NFTs.',
+      action: (
+        <a href="https://savagedroids.com" target="_blank" rel="noreferrer">
+          <button className={css(styles.button)}>
+            savagedroids.com
           </button>
         </a>
       ),
@@ -89,6 +104,18 @@ export default function ProjectsSection({activeProject, setActiveProject}) {
             exit={{ opacity: 0 }}
           />
         );
+      case 'savagedroids':
+        return (
+          <motion.img 
+            className={css(styles.kryptosignPreview)}
+            src={savagedroidsPreview}
+            key="savagedroids-preview"
+            transition={{ duration: .5, type: "tween" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          />
+        )
       default:
         return null;
     }

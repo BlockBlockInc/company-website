@@ -75,9 +75,7 @@ export default function HeroArea({activeProject}) {
           />
           <div className={css(styles.textbox) + ' white-text-box'}>
             <p className={css(styles.text)}>
-              We are a creative blockchain lab working in DAOs, NFTs, and
-              building the creator economy. Also the Metaverse. We microfund
-              entrepreneurs and artists each month. 
+              <strong>Franchise IP for the metaverse</strong>. We are a creative blockchain lab making NFTs and DAOs, including Savage Droids, the MeebitsDAO and more.
             </p>
             <p className='paragraph'>Banter, brainstorm, build with us.</p>
             <a
@@ -162,7 +160,7 @@ const styles = StyleSheet.create({
     }
   },
   textbox: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 400,
 
     "@media only screen and (max-width: 767px)": {

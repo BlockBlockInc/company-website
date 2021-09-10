@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import menschBackground from '../../assets/images/menschBackground.webp';
 import kryptosignBackground from '../../assets/images/kryptosignBackground.webp';
+import savageDroidsBackground from '../../assets/images/savageDroidsBackground.webp';
 
 export default function ProjectsHero({activeProject, translate}) {
   const renderHero = () => {
@@ -50,6 +51,20 @@ export default function ProjectsHero({activeProject, translate}) {
             key="kryptosign-animation"
             className={css(styles.imageBackground)}
             src={kryptosignBackground}
+            width={2048}
+            height={1296}
+            transition={{ duration: .5, type: "tween" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          />
+        );
+      case 'savagedroids':
+        return (
+          <motion.img
+            key="savagedroids-animation"
+            className={css(styles.imageBackground, styles.savagedroidsBackground)}
+            src={savageDroidsBackground}
             width={2048}
             height={1296}
             transition={{ duration: .5, type: "tween" }}
@@ -124,5 +139,8 @@ const styles = StyleSheet.create({
     minHeight: '105vh',
     objectFit: 'cover',
     zIndex: 1,
+  },
+  savagedroidsBackground: {
+    minHeight: '120vh',
   },
 })
