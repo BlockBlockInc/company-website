@@ -22,7 +22,7 @@ const members = [
   {
     name: 'Kai',
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/Kai.webp",
-    description: 'Advisor. Kai is in Experience Design at Netflix, where he works closely with content creators and product owners to create special experiences on the platform. He is the founder of the MeebitsDAO project and has spent years in the crypto world. He previously worked at Sony Pictures Entertainment.',
+    description: 'Cofounder. Kai most recently was in Experience Design at Netflix, working closely with content creators and product owners to create special experiences on the platform. Before that, he worked at Sony Pictures Entertainment. Kai discovered NFTs in 2017 when he cracked the CryptoKitties genetic code, and has filed three related patents. He is the founder of the MeeebitsDAO project.',
   },
   {
     name: 'Carly',
