@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c2682727.chunk.css",
-    "main.js": "/static/js/main.ab7c3699.chunk.js",
-    "main.js.map": "/static/js/main.ab7c3699.chunk.js.map",
+    "main.js": "/static/js/main.e281b7a8.chunk.js",
+    "main.js.map": "/static/js/main.e281b7a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3da8afb9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3da8afb9.js.map",
     "static/css/2.165ff965.chunk.css": "/static/css/2.165ff965.chunk.css",
@@ -31,13 +31,14 @@
     "static/media/savageDroidsBackground.be67511a.webp": "/static/media/savageDroidsBackground.be67511a.webp",
     "static/media/savageDroidsFloatingBlocks.7efcfff1.webp": "/static/media/savageDroidsFloatingBlocks.7efcfff1.webp",
     "static/media/savageDroidsPreview.2378993a.webp": "/static/media/savageDroidsPreview.2378993a.webp",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/zach_pfp.3a9a581e.webp": "/static/media/zach_pfp.3a9a581e.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.3da8afb9.js",
     "static/css/2.165ff965.chunk.css",
     "static/js/2.7ff18919.chunk.js",
     "static/css/main.c2682727.chunk.css",
-    "static/js/main.ab7c3699.chunk.js"
+    "static/js/main.e281b7a8.chunk.js"
   ]
 }
