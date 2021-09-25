@@ -8,6 +8,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import zach from '../../assets/zach_pfp.webp';
+
 const members = [
    {
     name: 'Bart',
@@ -64,6 +66,11 @@ const members = [
     img: "https://blockblock-frontend.s3.us-west-2.amazonaws.com/avatars/mateo.webp",
     description: 'EIR. Mateo founded his first company at age 16. Recently he won first prize among 400+ competitors in a startup competition organized by the BBVA Bank. He is now starting his next adventure in what he believes to be the most significant thing since the internet: blockchain. Mateo is our first EIR.',
   },
+   {
+      name: 'Zach',
+      img: zach,
+      description: 'Community Manager. Zach is a computer science graduate from Shepherd University. He has won multiple writing competitions and served in several leadership roles in college. With a deep interest in the mass adoption of blockchain technologies, Zach is using his community skills and knowledge of the industry to build toward that future.'
+   }
 ]
 
 function NextArrow(props) {
